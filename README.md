@@ -54,7 +54,7 @@ En esta sección encuentras los atajos de los READMEs de los ejercicios, cada ej
 
 ### Actualizar tu Fork
 
-Quizá te preguntes __¿Cómo es que puedo actualizar mi `fork` 🤔?__, <ins>durante el curso será necesario ya que el repositorio oficial irá actualizándose con nuevos ejercicios</ins>, cuando digo que el repositorio estará actualizándose me refiero a la rama `master` del [repositorio oficial](https://github.com/tlamabyte-code/angular001-portafolio)
+Quizá te preguntes __¿Cómo es que puedo actualizar mi `fork` 🤔?__, <ins>durante el curso será necesario ya que el repositorio oficial irá actualizándose con nuevos ejercicios</ins>, cuando digo que el repositorio estará actualizándose me refiero a la rama `master` del [repositorio oficial](https://github.com/tlamabyte-code/angular-portafolio-ieca)
 
 1. Si es la **primera vez que tienes que actualizar el `fork` tendrás que realizar algunas configuraciones de tu `fork` utilizando la línea de comandos de `git`**, <ins>si ya configuraste tu `upstream` entonces puedes saltar al paso 4</ins>.
 2. Con una `CMD` <sub>(windows)</sub> o `Terminal` <sub>(linux)</sub> dirígete a la ubicación de tu repositorio
