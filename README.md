@@ -58,7 +58,7 @@ Quizá te preguntes __¿Cómo es que puedo actualizar mi `fork` 🤔?__, <ins>du
 
 1. Si es la **primera vez que tienes que actualizar el `fork` tendrás que realizar algunas configuraciones de tu `fork` utilizando la línea de comandos de `git`**, <ins>si ya configuraste tu `upstream` entonces puedes saltar al paso 4</ins>.
 2. Con una `CMD` <sub>(windows)</sub> o `Terminal` <sub>(linux)</sub> dirígete a la ubicación de tu repositorio
-3. Crearemos algo llamado `upstream`, ejecuta `git remote add upstream https://github.com/tlamabyte-code/angular001-portafolio.git`
+3. Crearemos algo llamado `upstream`, ejecuta `git remote add upstream https://github.com/tlamabyte-code/angular-portafolio-ieca`
 > **Upstream**. Un `upstream` **será una conexión con el repositorio original**, <ins>necesario para que git sepa que origen tomará para realizar las actualizaciones</ins>
 4. Antes de realizar la actualización, ejecuta `git branch` para asegurar que estas ubicado en tu rama de trabajo, es decir, la rama `evidencias`
   - La terminal debería arrojarte `* evidencias`, si no es así solo ejecuta `git checkout evidencias`
