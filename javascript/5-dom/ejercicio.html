@@ -11,7 +11,7 @@
     </div>
     <div style="display: flex">
         <button id="btnActualizacion" onClick="modificarEncabezado()" style="margin-right: 10px">Establecer Encabezado</button>
-        <button id="btnUndo" disabled>Encabezado Anterior</button>
+        <button id="btnUndo" onClick="callback()" disabled>Encabezado Anterior</button>
     </div>
     <h1 id="encabezado">...</h1>
 
@@ -34,12 +34,35 @@
                     así podrás saber cuando desbloquear el botón
         */
 
-        const btnUndo = document.getElementById('btnUndo')
+        const _btnUndo = document.getElementById('btnUndo')
         const tituloEncabezado = document.getElementById('encabezado')
         const inputEncabezado = document.getElementById('inputEncabezado')
+        let contador = 0
+        let encabezadoAnterior = ""
 
         function modificarEncabezado() {
             /* Tu código aquí */
+            console.log(inputEncabezado.value)
+            if (inputEncabezado.value === "")
+            {
+            	alert("el valor no puede ser vacío");
+            }
+            else
+            {
+            	contador++;
+              if (contador >= 2)
+              {
+              	//alert("contador mayor o igual a 2");
+                encabezadoAnterior = tituloEncabezado.innerText;
+                _btnUndo.disabled = false;
+              }
+            	tituloEncabezado.innerText = inputEncabezado.value;
+            }
+        }
+        
+        function callback() {
+        	tituloEncabezado.innerText = encabezadoAnterior;
+          inputEncabezado.value = "";
         }
     </script>
 </body>
