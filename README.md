@@ -9,11 +9,11 @@ Si ya tienes tu [fork](#haz-un-fork-del-portafolio-de-evidencias) listo ✅, te 
 
 Antes de comenzar, primero completa estas tareas:
 
-### Haz un `fork` del [portafolio de evidencias](https://github.com/tlamabyte-code/angular001-portafolio)
+### Haz un `fork` del [portafolio de evidencias](https://github.com/tlamabyte-code/angular-portafolio-ieca)
 
 > **Fork**. Un **fork** es una copia independiente de un repositorio, en este curso <ins>lo vamos a utilizar para que tengas tu portafolio de evidencias en tu cuenta personal de github y puedas trabajar individualmente los ejercicios</ins>.
 
-1. Visita el [link](https://github.com/tlamabyte-code/angular001-portafolio)
+1. Visita el [link](https://github.com/tlamabyte-code/angular-portafolio-ieca)
 2. Presiona el botón `Fork` lo encuentras en la parte superior derecha
 3. Presiona el botón `Create fork` y listo ✅
 
@@ -48,6 +48,7 @@ En esta sección encuentras los atajos de los READMEs de los ejercicios, cada ej
 | Módulo  | Link    |
 | ------- | ------- |
 | Fundamentos Web | [README](/fundamentos-web/README.md) |
+| Fundamentos JS | [README](/javascript/README.md) |
 
 ## Notas Importantes ‼️
 <h4>Durante el curso cada semana actualiza tu fork con el código <code>master</code> del repositorio oficial</h4>
